@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+h2 {
+	padding: 12px 0 12px 12px;
+	font-size: 1.5em;
+}
+.wrap_inner {
+	margin: 0 10%;
+}
+
+/* header */
+
+header {
+	height: 100px;
+}
+.logo {
+	width: 86px;
+}
+.title_text {
+	width: 360px;
+}
+.title_text h1 {
+	font-size: 2.5em;
+}
+.title_text p {
+	font-size: 0.85em;
+}
+.request_btn {
+	width: 120px;
+	max-height: 75px;
+	font-size: 1.1em;
+	line-height: 1.8;
+}
+.request_btn span {
+	font-size: 1.4em;
+}
+
+/* main */
+
+main {
+	padding-top: 100px;
+}
+.main_img {
+	margin-bottom: 100px;
+}
+.main_text {
+	top: 5%;
+	right: 5%;
+	font-size: 5vw;
+}
+.main_sub {
+	font-size: 3.5vw;
+	text-align: center;
+}
+.plan {
+	margin-bottom: 100px;
+}
+.plan h2 {
+	margin-bottom: 20px;
+}
+.plan p {
+	margin-bottom: 16px;
+	font-size: 1.2em;
+}
+.plan_inner {
+	margin: 0 10% 20px;
+}
+.plan_ul li {
+	font-size: 1.2em;
+}
+.experience {
+	margin-bottom: 100px;
+	padding: 30px 0;
+}
+.experience h2 {
+	margin-bottom: 30px;
+}
+.experience_inner {
+	margin-bottom: 50px;
+}
+.experience_img {
+	max-width: 600px;
+	margin: 0 auto 5px;
+}
+.experience_img h3 {
+	font-size: 3em;
+}
+.experience_copy {
+	font-size: 1.5em;
+}
+.experience_review {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 10px;
+}
+.review {
+	font-size: 0.9em;
+}
+.experience_review>p {
+	font-size: 0.95em;
+}
+.price {
+	margin-bottom: 100px;
+}
+.price h2 {
+	margin-bottom: 40px;
+}
+.price dl {
+	max-width: 600px;
+	margin: 0 auto;
+	font-size: 1.2em;
+}
+.price dt {
+	padding: 16px 0 16px 32px;
+}
+.price dd {
+	padding: 6px 0 6px 64px;
+	font-size: 0.9em;
+}
+.contact {
+	margin-bottom: 100px;
+}
+.contact h2 {
+	margin-bottom: 5px;
+}
+#request>p {
+	max-width: 600px;
+	margin: 0 auto 30px;
+	font-size: 0.9em;
+}
+.contact form {
+	max-width: 600px;
+	margin: 0 auto 50px;
+}
+.contact dt{
+	margin-bottom: 20px;
+	padding: 12px 16px;
+	font-size: 1.2em;
+}
+.contact dd{
+	margin-bottom: 30px;
+}
+.contact dd input {
+	width: 60%;
+}
+.contact p {
+	font-size: 1em;
+}
+
+/* footer */
+
+footer {
+	padding: 20px 110px 20px 3%;
+}
+.ft_logo img {
+	width: 80px;
+}
+.ft_copy {
+	font-size: 0.9em;
+}
+.to_top {
+	bottom: 3%;
+}

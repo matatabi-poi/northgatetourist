@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+.wrap {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/* header */
+
+header {
+	max-width: calc(1200px - 6%);
+/*	padding:0 3%;*/
+}
+
+/* main */
+
+.main_img {
+	margin-bottom: 30px;
+}
+.main_text {
+	top: 8%;
+	right: 8%;
+	font-size: 3em;
+}
+.main_sub {
+	width: 700px;
+	padding: 10px 0 10px 15px;
+	font-size: 1.8em;
+	text-align: left;
+	background: rgba(255, 255, 255, 0.8);
+	position: relative;
+	top: -70px;
+}
+.experience_inner {
+	margin: 0;
+	display: flex;
+	align-items: center;
+}
+.experience_inner:nth-child(even) {
+	flex-direction: row-reverse;
+}
+.experience_img {
+	width: 50%;
+	margin: 0;
+}
+.experience_inner:nth-child(odd) h3 {
+	right: 6%;
+}
+.experience_text {
+	width: 50%;
+	margin: 0;
+}
+.experience_copy {
+	font-size: 1.2em;
+	text-align: left;
+}
+.experience_inner:nth-child(even) .experience_copy {
+	text-align: right;
+}
+.experience_review {
+	width: 96%;
+	margin: 0 2% 0;
+	padding: 5px 0;
+	border: solid 1px #666;
+	justify-content: space-around;
+	align-items: center;
+}
+.experience_review p {
+	width: 78%;
+	font-size: 0.9em;
+}
+.pc_schedule {
+	margin-bottom: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+.price {
+	width: 46%;
+	margin: 0 3% 0 0;
+}
+.schedule {
+	width: 46%;
+	display: block;
+	margin: 0 0 0 3%;
+}
+.schedule h2 {
+	margin-bottom: 40px;
+}
+.schedule img {
+	width: 100%;
+}
+#request>p {
+	max-width: 700px;
+	margin: 0 auto 40px;
+	font-size: 1em;
+}
+.contact form {
+	max-width: 700px;
+}
+.contact dt {
+	width: 170px;
+	float: left;
+	clear: both;
+}
+.contact dd {
+	margin-left: 200px;
+	padding: 10px 3%;
+}
+.contact dd input,
+.contact dd textarea {
+	width: 100%;
+}
+
